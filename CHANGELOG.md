@@ -23,3 +23,4 @@
 
 # Version 1.13.2.1
 ## Fixed Tutorials bug and fixed color bug. 
+## Fixed Sound bug in menu drop downs.
