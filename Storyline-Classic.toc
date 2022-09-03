@@ -1,0 +1,12 @@
+## Interface: 30400
+## Title: Storyline-Classic
+## Author: Ellypse and Telkostrasz
+## Version: 1.13.2.1
+## Notes: Enhanced quest storytelling
+## URL: hhttps://github.com/adamz01h/Storyline-Update
+## X-Website: https://www.curseforge.com/wow/addons/storyline
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: Storyline_Data
+
+ui.xml
