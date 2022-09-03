@@ -344,7 +344,7 @@ local function openDropDown(anchoredFrame, values, callback, space, addCancel)
 	);
 	dropDownFrame:SetParent(anchoredFrame);
 	ToggleDropDownMenu(1, nil, dropDownFrame, anchoredFrame:GetName(), -((space or -10)), 0);
-	Storyline_API.PlaySound("igMainMenuOptionCheckBoxOn","SFX");
+	PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON,"SFX");
 	currentlyOpenedDrop = anchoredFrame;
 end
 
