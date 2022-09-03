@@ -5,7 +5,7 @@ local pairs = pairs;
 -- local assert = assert;
 
 local VERSION_NUMBER = 7;
-local DEBUG_MODE = true;
+local DEBUG_MODE = false;
 local instances = {};
 local addonVersions = {};
 
