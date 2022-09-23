@@ -672,10 +672,6 @@ function Storyline_API.initEventsStructure()
 					end
 
 					local rewards = Rewards.getRewards();
-					-- If we have rewards to choose, show tutorial
-					if  tsize(rewards[Rewards.BUCKET_TYPES.CHOICE]) > 0 then
-						Storyline_API.Tutorials.trigger("RewardChoice");
-					end
 
 				elseif GetNumQuestChoices() == 1 then
 					GetQuestReward(1);
